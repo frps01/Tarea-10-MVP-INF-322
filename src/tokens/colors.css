@@ -1,0 +1,108 @@
+
+
+:root {
+  /* ---- Brand: Navy ---- */
+  --usm-navy-900: #00132F;   /* deepest — hero backdrops */
+  --usm-navy-800: #001B4E;   /* PRIMARY institutional navy */
+  --usm-navy-700: #002A6B;
+  --usm-navy-600: #003087;   /* institutional blue */
+  --usm-navy-500: #0A47B0;
+  --usm-navy-400: #2E6BD6;
+  --usm-navy-300: #6F9BE8;
+  --usm-navy-200: #AEC6F2;
+  --usm-navy-100: #DCE7FA;
+  --usm-navy-50:  #EEF3FD;
+
+  /* ---- Brand: Gold ---- */
+  --usm-gold-700: #9C7410;
+  --usm-gold-600: #B88C12;
+  --usm-gold-500: #D4A017;   /* PRIMARY gold accent */
+  --usm-gold-400: #E2B53F;
+  --usm-gold-300: #EDCB73;
+  --usm-gold-200: #F6E2A8;
+  --usm-gold-100: #FBF1D4;
+  --usm-gold-50:  #FDF8EC;
+
+  /* ---- Neutrals (cool slate, tuned toward navy) ---- */
+  --slate-950: #0B1220;
+  --slate-900: #131B2C;
+  --slate-800: #1F2A40;
+  --slate-700: #334155;
+  --slate-600: #475569;
+  --slate-500: #64748B;
+  --slate-400: #94A3B8;
+  --slate-300: #CBD5E1;
+  --slate-200: #E2E8F0;
+  --slate-150: #EBF0F6;
+  --slate-100: #F1F5F9;
+  --slate-50:  #F7F9FC;
+  --white:     #FFFFFF;
+
+  /* ---- Semantic feedback (simulador PAES) ---- */
+  --feedback-green-700: #15803D;
+  --feedback-green-600: #16A34A;   /* "seguro" / admitido */
+  --feedback-green-500: #22C55E;
+  --feedback-green-100: #DCFCE7;
+  --feedback-green-50:  #F0FDF4;
+
+  --feedback-amber-700: #B45309;
+  --feedback-amber-600: #D97706;   /* "en el límite" */
+  --feedback-amber-500: #F59E0B;
+  --feedback-amber-100: #FEF3C7;
+  --feedback-amber-50:  #FFFBEB;
+
+  --feedback-red-700:   #B91C1C;
+  --feedback-red-600:   #DC2626;   /* "bajo el corte" */
+  --feedback-red-500:   #EF4444;
+  --feedback-red-100:   #FEE2E2;
+  --feedback-red-50:    #FEF2F2;
+
+  /* ============================================================
+     Semantic aliases — reference these in components
+     ============================================================ */
+
+  /* Brand */
+  --brand-primary:        var(--usm-navy-800);
+  --brand-primary-hover:  var(--usm-navy-700);
+  --brand-primary-press:  var(--usm-navy-900);
+  --brand-secondary:      var(--usm-navy-600);
+  --brand-accent:         var(--usm-gold-500);
+  --brand-accent-hover:   var(--usm-gold-600);
+  --brand-accent-soft:    var(--usm-gold-100);
+
+  /* Surfaces */
+  --surface-page:         var(--slate-50);
+  --surface-card:         var(--white);
+  --surface-raised:       var(--white);
+  --surface-sunken:       var(--slate-100);
+  --surface-inverse:      var(--usm-navy-900);
+  --surface-inverse-soft: var(--usm-navy-800);
+  --surface-accent-soft:  var(--usm-navy-50);
+
+  /* Text */
+  --text-strong:    var(--usm-navy-900);
+  --text-body:      var(--slate-700);
+  --text-muted:     var(--slate-500);
+  --text-subtle:    var(--slate-400);
+  --text-on-brand:  var(--white);
+  --text-on-accent: var(--usm-navy-900);
+  --text-link:      var(--usm-navy-600);
+
+  /* Borders / dividers */
+  --border-subtle:  var(--slate-200);
+  --border-default: var(--slate-300);
+  --border-strong:  var(--slate-400);
+  --border-brand:   var(--usm-navy-200);
+  --ring-focus:     var(--usm-navy-400);
+
+  /* Feedback semantic */
+  --ok-fg:     var(--feedback-green-700);
+  --ok-bg:     var(--feedback-green-50);
+  --ok-solid:  var(--feedback-green-600);
+  --warn-fg:   var(--feedback-amber-700);
+  --warn-bg:   var(--feedback-amber-50);
+  --warn-solid:var(--feedback-amber-500);
+  --bad-fg:    var(--feedback-red-700);
+  --bad-bg:    var(--feedback-red-50);
+  --bad-solid: var(--feedback-red-600);
+}
