@@ -51,19 +51,6 @@ export function BecasScreen({ onNavigate }) {
         </div>
 
         {/* CTA */}
-        <div style={{ marginTop: '32px', background: 'var(--usm-navy-900)', borderRadius: 'var(--radius-2xl)', padding: 'clamp(28px, 5vw, 48px)', position: 'relative', overflow: 'hidden' }}>
-          <div style={{ position: 'absolute', inset: 0, background: 'radial-gradient(800px 300px at 90% 0%, rgba(212,160,23,0.18), transparent 60%)' }} />
-          <div style={{ position: 'relative', display: 'flex', justifyContent: 'space-between', alignItems: 'center', gap: '24px', flexWrap: 'wrap' }}>
-            <div style={{ maxWidth: '520px' }}>
-              <h2 style={{ fontFamily: 'var(--font-display)', fontSize: 'var(--t-h2)', fontWeight: 700, color: '#fff', margin: 0, letterSpacing: '-0.02em' }}>¿No sabes a qué becas puedes acceder?</h2>
-              <p style={{ fontSize: 'var(--t-base)', color: 'var(--usm-navy-100)', marginTop: '10px' }}>Simula tu puntaje y postula — durante el proceso te mostraremos los beneficios para los que calificas.</p>
-            </div>
-            <div style={{ display: 'flex', gap: '12px', flexWrap: 'wrap' }}>
-              <Button variant="accent" size="lg" onClick={() => onNavigate('simulador')}>Simular puntaje</Button>
-              <Button variant="inverse" size="lg" onClick={() => onNavigate('postular')}>Postular</Button>
-            </div>
-          </div>
-        </div>
       </div>
     </div>
   );

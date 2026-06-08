@@ -18,7 +18,7 @@ export function Footer({ onNavigate }) {
       <div style={{ maxWidth: 'var(--container-wide)', margin: '0 auto', padding: 'clamp(2.5rem, 5vw, 4rem) var(--gutter) 2rem', display: 'grid', gridTemplateColumns: '1.4fr 1fr 1fr 1.2fr', gap: '32px' }} className="usm-footer-grid">
         <div>
           <Logo inverse />
-          <p style={{ fontSize: 'var(--t-sm)', color: 'var(--usm-navy-200)', marginTop: '16px', maxWidth: '260px', lineHeight: 1.6 }}>Universidad pública, técnica y de excelencia. Formando líderes en ciencia y tecnología desde 1931.</p>
+          <p style={{ fontSize: 'var(--t-sm)', color: 'var(--usm-navy-200)', marginTop: '16px', maxWidth: '260px', lineHeight: 1.6 }}></p>
         </div>
         {cols.map(([title, items]) => (
           <div key={title}>
